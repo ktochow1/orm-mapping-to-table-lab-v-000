@@ -19,7 +19,7 @@ class Student
   
   def self.drop_table
     sql = %{
-      DROP TABLE
+      DROP TABLE students
     }
   end
 
